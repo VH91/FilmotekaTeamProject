@@ -1,0 +1,53 @@
+<section class="section hero__section js-hero__section" data-library>
+  <div class="container hero__container js-hero__container">
+    <h1 class="visually-hidden">Filmoteka</h1>
+    <div class="search__wrapp js-search__wrapp" data-library>
+      <input
+        class="search__input"
+        id="movieSearch"
+        type="text"
+        name="movieSearch"
+        placeholder="|"
+      />
+      <label class="search__label" for="movieSearch">Поиск фильмов</label>
+      <svg class="search__icon" width="12" height="12">
+        <use href="./images/sprite.svg#icon-search-2"></use>
+      </svg>
+    </div>
+    <p class="hero__info js-hero__info">
+      Search result not successful. Enter the correct movie name
+    </p>
+    <div class="library__button-wrapp js-library__button-wrapp" data-library>
+      <button
+        class="library__button watched-btn active"
+        data-id="${movie.id}"
+        type="button"
+      >
+        WATCHED
+      </button>
+      <button
+        class="library__button queue-btn"
+        data-queue
+        data-id="${movie.id}"
+        type="button"
+      >
+        QUEUE
+      </button>
+      <button
+        class="library__button clear-list-btn"
+        data-queue
+        data-id="${movie.id}"
+        type="button"
+      >
+        CLEAR WATCHED
+      </button>
+      <!-- <button
+        class="library__button clear-all-btn"
+        data-id="${movie.id}"
+        type="button"
+      >
+        CLEAR ALL
+      </button> -->
+    </div>
+  </div>
+</section>

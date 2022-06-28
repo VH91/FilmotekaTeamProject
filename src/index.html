@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmoteka</title>
+    <link rel="icon" href="./images/icon.ico" sizes="16x16" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <include src="./partials/header.html"></include>
+    </header>
+    <main class="main">
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/mainPage.html"></include>
+    </main>
+    <footer class="footer">
+      <include src="./partials/footer.html"></include>
+    </footer>
+    <include src="./partials/footerModal.html"></include>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

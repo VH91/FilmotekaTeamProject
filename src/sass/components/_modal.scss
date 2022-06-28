@@ -1,0 +1,157 @@
+
+.modal__container {
+  
+    overflow-x: auto;
+    position: relative;
+    margin: auto;
+    background-color: $color-lightest;
+    font-family: $font-family;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    max-height: 85vh;
+    width: 90vw;
+    padding: 48px 20px 41px 20px;
+
+@media screen and (min-width: 768px)  {
+        display: flex;
+        margin: auto;
+        width: 704px;
+       
+        padding: 40px 30px;
+} 
+
+@media screen and (min-width: 1024px) {
+width: 814px;
+
+}
+}
+
+.image {
+   
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+   
+    width: 240px;
+    height: 357px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+            width: 264px;
+            height: 373px;
+            margin-bottom: 0;
+        }
+    @media screen and (min-width: 1024px) {
+            width: 320px;
+            height: 475px;
+            margin-bottom: 0;
+        }
+
+}
+
+.film__information {
+   margin-left: 0;
+   width: 100%;
+    
+   
+
+@media screen and (min-width: 768px) {
+    margin-left: 68px;
+    
+    }
+  @media screen and (min-width: 1024px) {
+      margin-left: 16px;
+      max-width: 375px;
+  }
+}
+
+.film__title {
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+        line-height: 1.17;
+    }
+}
+
+.film__item {
+    display: flex;
+    margin-bottom: 20px;
+    &:nth-child(-n + 3) {
+     margin-bottom: 10px;
+    }
+}
+
+.film__details {
+    color: $color-middle;
+    min-width: 108px;
+
+@media screen and (min-width: 768px) {
+        min-width: 140px;
+    }
+
+}
+
+.film__details-title {
+    text-transform: uppercase;
+}
+
+.film__info--uper {
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+
+.film__rating--orange {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: $color-lightest;
+    background-color: $color-accent-2;
+
+    border-radius: 5px;
+}
+
+.film__rating--divider {
+    margin-right: 3px;
+}
+
+.film__about__title {
+    text-transform: uppercase;
+   
+    margin-bottom: 10px;
+}
+
+.film__about__text {
+    font-size: 12px;
+    line-height: 1.67;
+    margin-bottom: 21px;
+    color: $color-darkest;
+    font-weight: 500;
+    overflow: scroll;
+ 
+
+@media screen and (min-width: 768px) {
+        max-height: 100px;
+       
+    }
+
+@media screen and (min-width: 1024px) {
+   
+    max-height: 110px;
+}
+}
+
+.film__button__wrapper {
+    display: flex;
+}
+
+iframe {    
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+        margin-right: auto;
+}
+

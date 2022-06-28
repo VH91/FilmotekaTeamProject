@@ -1,0 +1,23 @@
+@import './base/reset';
+@import './base/visually-hidden';
+@import './utils/variables';
+@import './base/common';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/mainPage';
+@import './layout/library';
+@import './layout/footer';
+@import './layout/footerModal';
+
+@import './components/container';
+@import './components/button';
+@import './components/filmSet';
+@import './components/numberOfPages';
+@import './components/modal';
+@import './components/pagination';
+@import './components/to-top-button';
+
+
+
+

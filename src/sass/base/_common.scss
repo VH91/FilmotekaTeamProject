@@ -1,0 +1,29 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+//Стили body
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family;
+  color: $color-darkest;
+  background-color: $color-lightest;
+  height: 100%;
+
+  position: relative;
+  min-height: 100vh;
+
+  &.modal-open {
+      overflow: hidden;
+    }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-accent-2;
+  border-radius: 8px;
+}
